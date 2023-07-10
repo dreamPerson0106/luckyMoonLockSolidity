@@ -1,0 +1,174 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sharesDeposited",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sharesWithdrawn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startEmission",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "endEmission",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "lockID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "condition",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountInTokens",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "option",
+						"type": "uint256"
+					}
+				],
+				"name": "migrate",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TokenVesting.sol": "IMigrator"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Context.sol": {
+			"keccak256": "0x30e8b56fa97e1c87038419826e508b9342763ed26d5400089e78ef70429308ad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1383d1bd0a6c7bc4cf3b2901a0041e5da29611c4e186505c25a6e73711ba4f4e",
+				"dweb:/ipfs/QmafVxoZZVs26MKidKLLkHLseBbGN2ys99miGjkNSUKGGU"
+			]
+		},
+		"EnumerableSet.sol": {
+			"keccak256": "0x60ffffcaec14c31c74a7ca9a57444eb59628685c2f9e256df4c6fd801b93ca27",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://341753d001dd73a34bc72da0046cd98bbee52b7c9ec82a303e53d6714f99179b",
+				"dweb:/ipfs/QmUEt9tFxRWMXH6LQPBDhZYjNkUM856zm4pQ4QVqdZcz2m"
+			]
+		},
+		"FullMath.sol": {
+			"keccak256": "0x569526e390801e6cc6133421c5159b94c6bf94cefa1e09e42f7eabc6f3e1a623",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa8515f33cfabc10413a3211636943f5b499c5963d0eb34e2949ce78e62ab43a",
+				"dweb:/ipfs/QmUBwPVzoheyjzHHuDQQ6hr7YEXgb1TuXjUfS1UvsmF2w6"
+			]
+		},
+		"IERC20.sol": {
+			"keccak256": "0xe13c56a4066195b567c4a75de1d2c6ce3253d17dd3cd287430976d545a7f9ba2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a6ceaad3b1d5826aedd88dcb6451c1522252a57487039a9a8173edb3b1696ed",
+				"dweb:/ipfs/QmaQLUBEca1u1s3S9HKhBFTZFpmh1aJXkN2g7zZiB3wSRA"
+			]
+		},
+		"Ownable.sol": {
+			"keccak256": "0x437be7e45be12ee1682abc1b966377375aca242e8284d7707e40c24679c41f23",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01d716e6a928686d265243b7ddedc15076bd0eda1d5fa89927a6a074382f6b32",
+				"dweb:/ipfs/QmQ5hFmeHC9hgCmpGh6GayBn7Y33T7bHU5voyWrnDFipG9"
+			]
+		},
+		"ReentrancyGuard.sol": {
+			"keccak256": "0x4a096be6da76edb80653f26c34c92815658d52cfcb27175d1383c469e3e9b8cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://28f8bc6d50b285d9e26743faf44927d25fd73d4ba40461e18cd3af5cbd325e15",
+				"dweb:/ipfs/QmZfmyiweUM74EBtqRKjAHQAasKJhZYS2dTg5ubFNCiFNy"
+			]
+		},
+		"TokenVesting.sol": {
+			"keccak256": "0xc8df9361e3a185ac8073a72be6e591a84d3a342bbf9bec301e3e1b9f1400a584",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://20ca366c7096da42dfb9a2259b1c792288f70dcbde0ca73b13bb264b1a1321d6",
+				"dweb:/ipfs/QmQ2DVAXGDh1VJkAAuAqWxNw7Zbw18ZoEAof7dEcnf88TH"
+			]
+		},
+		"TransferHelper.sol": {
+			"keccak256": "0xe6ddc810c37a3e2cfb834a4950254daf79545d0c6ff93740c1e26ee6148f425d",
+			"license": "GPL-2.0-or-later",
+			"urls": [
+				"bzz-raw://b5828e470b238447341c551e9fde37134c9308f28e27b5e793823fe96169671a",
+				"dweb:/ipfs/QmNf8mHCFWJd9n6wM9UvVzLdnMKXiRR5WT94nrq21yStYJ"
+			]
+		},
+		"VestingMathLibrary.sol": {
+			"keccak256": "0x8d4aa35becda254ae85e834947f44126217d81ccfd4ddbbde8aa9fe1ca3c5793",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://f1882c1aea5f0657b406893e8b0e3dad3166ac9c96b5bf6eb1a3ff5ebfc60c7e",
+				"dweb:/ipfs/QmSzqkHBA2xHpA7PCEFy27bzo37RwPXfHppaEcefdayz3T"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"VestingMathLibrary.sol": "VestingMathLibrary"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FullMath.sol": {
+			"keccak256": "0x569526e390801e6cc6133421c5159b94c6bf94cefa1e09e42f7eabc6f3e1a623",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa8515f33cfabc10413a3211636943f5b499c5963d0eb34e2949ce78e62ab43a",
+				"dweb:/ipfs/QmUBwPVzoheyjzHHuDQQ6hr7YEXgb1TuXjUfS1UvsmF2w6"
+			]
+		},
+		"VestingMathLibrary.sol": {
+			"keccak256": "0x8d4aa35becda254ae85e834947f44126217d81ccfd4ddbbde8aa9fe1ca3c5793",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://f1882c1aea5f0657b406893e8b0e3dad3166ac9c96b5bf6eb1a3ff5ebfc60c7e",
+				"dweb:/ipfs/QmSzqkHBA2xHpA7PCEFy27bzo37RwPXfHppaEcefdayz3T"
+			]
+		}
+	},
+	"version": 1
+}

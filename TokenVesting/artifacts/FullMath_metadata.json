@@ -1,0 +1,48 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Handles \"phantom overflow\" i.e., allows multiplication and division where an intermediate value overflows 256 bits",
+			"kind": "dev",
+			"methods": {},
+			"title": "Contains 512-bit math functions",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Facilitates multiplication and division that can have overflow of an intermediate value without any loss of precision",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FullMath.sol": "FullMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FullMath.sol": {
+			"keccak256": "0x569526e390801e6cc6133421c5159b94c6bf94cefa1e09e42f7eabc6f3e1a623",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa8515f33cfabc10413a3211636943f5b499c5963d0eb34e2949ce78e62ab43a",
+				"dweb:/ipfs/QmUBwPVzoheyjzHHuDQQ6hr7YEXgb1TuXjUfS1UvsmF2w6"
+			]
+		}
+	},
+	"version": 1
+}
