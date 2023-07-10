@@ -79,10 +79,6 @@ contract UniswapV2Locker is Ownable, ReentrancyGuard {
   event onDeposit(address lpToken, address user, uint256 amount, uint256 lockDate, uint256 unlockDate);
   event onWithdraw(address lpToken, uint256 amount);
 
-  /** @dev constructor is function that sets various initial values 
-    * for Uniswap factory contract address
-    * @_uniswapFactory
-    */
   constructor(IUniFactory _uniswapFactory) public {
     devaddr = msg.sender;
     gFees.referralPercent = 250; // 25%
